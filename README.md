@@ -1,7 +1,28 @@
 # FYPCiscoAutomation
-A tool created to automate network administration as part of my final year project.
+A tool created to automate network administration as part of my final year project. This tool works with Cisco IOS based devices.
+The tool takes from already available solutions (netmiko, ciscoconfparse, netcompare) and gathers all the functionalities as one interface.
 
 1.1	User manual
+
+Functionalities:
+
+1. Back-up running configuraiton to an encrypted file (single or all online devices)
+2. Open encrypted configurations using user's password
+3. Check for online devices and manage devices database
+4. Send configuration to the device (from an encrypted file)
+5. Display information about the device (send show commmands)
+6. Download IOS to an FTP server
+7. Compare configuration for changes
+
+Prerequisites:
+
+Tool was tested using Python 3.8 with following libraries imported:
+
+1. paramiko
+2. Crypto
+3. netcompare
+
+
 
 1.1.1	Introduction
 This document covers The Net Helper usage and documentation
