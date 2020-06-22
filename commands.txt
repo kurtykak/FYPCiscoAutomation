@@ -1,0 +1,13 @@
+show interfaces	(Displays statistics for all interfaces)
+show ip interface brief	(Displays a summary of all IPv4 interfaces, including status and IPv4 address assigned in the device)
+show ipv6 interface brief (Displays a summary of all IPv6 interfaces, including status and IPv6 address assigned in router )
+show history	(Displays history of Cisco IOS commands used)
+show flash	(Displays info about Flash memory)
+show version	(Displays info about loaded Cisco IOS software)
+show arp	(Displays the ARP table of the device ARP table is the table which contains the resolved IPv4 address to MAC address mappings.)
+show protocols	(Displays status of configured Layer 3 protocols)
+show startup-config	(Displays configuration saved in NVRAM)
+show running-config	(Displays configuration currently running in RAM
+show ip route	(Displays the IPv4 routing table of the router )
+show ipv6 route	(Displays the IPv6 routing table of the router)
+show spanning-tree (Switch only, displays information about the spanning tree state)
